@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Modern Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="calculator-container">
+
+        <section class="calculator" aria-label="Calculator">
+
+            <!-- Calculator Header -->
+            <div class="calculator-header">
+                <div>
+                    <p class="calculator-label">BASIC CALCULATOR</p>
+                    <h1>Calculator</h1>
+                </div>
+
+                <div class="calculator-icon">⌘</div>
+            </div>
+
+            <!-- Display -->
+            <div class="display-container">
+                <div id="expression" class="expression"></div>
+                <div id="display" class="display">0</div>
+            </div>
+
+            <!-- Buttons -->
+            <div class="buttons">
+
+                <button class="button clear" data-action="clear">
+                    C
+                </button>
+
+                <button class="button delete" data-action="delete">
+                    ⌫
+                </button>
+
+                <button class="button operator" data-operator="/">
+                    ÷
+                </button>
+
+                <button class="button operator" data-operator="*">
+                    ×
+                </button>
+
+                <button class="button number" data-number="7">
+                    7
+                </button>
+
+                <button class="button number" data-number="8">
+                    8
+                </button>
+
+                <button class="button number" data-number="9">
+                    9
+                </button>
+
+                <button class="button operator" data-operator="-">
+                    −
+                </button>
+
+                <button class="button number" data-number="4">
+                    4
+                </button>
+
+                <button class="button number" data-number="5">
+                    5
+                </button>
+
+                <button class="button number" data-number="6">
+                    6
+                </button>
+
+                <button class="button operator" data-operator="+">
+                    +
+                </button>
+
+                <button class="button number" data-number="1">
+                    1
+                </button>
+
+                <button class="button number" data-number="2">
+                    2
+                </button>
+
+                <button class="button number" data-number="3">
+                    3
+                </button>
+
+                <button class="button equals" data-action="calculate">
+                    =
+                </button>
+
+                <button class="button number zero" data-number="0">
+                    0
+                </button>
+
+                <button class="button decimal" data-number=".">
+                    .
+                </button>
+
+            </div>
+
+            <!-- Keyboard Hint -->
+            <p class="keyboard-hint">
+                Keyboard supported • Enter = Calculate • Esc = Clear
+            </p>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
